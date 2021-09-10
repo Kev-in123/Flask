@@ -1,0 +1,52 @@
+/*set a background colour*/
+body  {
+  background-color: #CCCCCC;
+}
+
+
+/*padding and background for main content*/
+.bodies {
+	margin : auto;
+	width : 50%;
+	padding : 15px;
+  align-items: center;
+}
+
+
+/*pagination*/
+.pagination {
+  margin : auto;
+  width: 50%;
+  display: inline-block;
+  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #DDD;
+  background-color: #FFFFFF;
+  
+}
+
+.pagination a.active {
+  background-color: #000080;
+  color: white;
+  border: 1px solid #000080;
+}
+
+.pagination a:hover:not(.active){
+	background-color: #ddd;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
