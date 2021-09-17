@@ -1,7 +1,11 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
+#the next 2 lines are optional, they are only to disable the logs
+import logging
+logging.getLogger('werkzeug').disabled = True
 
+
+app = Flask(__name__)
 
 @app.route('/')
 @app.route("/index.html")
