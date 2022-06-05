@@ -7,4 +7,4 @@ Run `app.py` or `app.bat` to start it, if logging is off, it won't display a lin
 
 If you run `app.bat` you might need to edit it depending on your installation of python
 
-note that paths vary on different operating systems
+note that paths vary on different operating systems (linux uses `/` and windows uses `\`)
